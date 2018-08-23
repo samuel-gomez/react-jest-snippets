@@ -1,4 +1,4 @@
-# react-jest-snippets
+# Test function class with JEST and sinon
 
 ```javascript
 export default class cloneButton extends Component {
@@ -28,6 +28,7 @@ it('clone should call handleCloneClick when clicked', () => {
   expect(spy).toHaveBeenCalled() //adept assertion to the tool you use
 });
 ```
+or
 
 ```javascript
 it('clone should call handleCloneClick when clicked', () => {      
